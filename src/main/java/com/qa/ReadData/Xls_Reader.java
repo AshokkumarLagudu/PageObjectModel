@@ -1,4 +1,4 @@
-package ReadData;
+package com.qa.ReadData;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
