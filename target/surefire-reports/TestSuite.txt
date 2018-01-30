@@ -1,0 +1,23 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 75.998 s <<< FAILURE! - in TestSuite
+browser(com.qa.test.TestDemoGuru)  Time elapsed: 74.997 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'ASHOK-PC', ip: '192.168.43.142', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_151'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: stack backtrace:
+   0:           0x47e934 - <no info>
+   1:           0x47f0a3 - <no info>
+   2:           0x442511 - <no info>
+   3:           0x42b90e - <no info>
+   4:           0x406f5e - <no info>
+   5:           0x40cfc9 - <no info>
+   6:           0x6bef19 - <no info>
+   7:           0x420756 - <no info>
+   8:           0x6b96e0 - <no info>
+   9:         0x76ebf56d - BaseThreadInitThunk
+	at com.qa.test.TestDemoGuru.browser(TestDemoGuru.java:20)
+
