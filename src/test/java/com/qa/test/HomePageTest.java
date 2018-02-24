@@ -11,7 +11,7 @@ import com.qa.pages.HomePage;
 import com.qa.pages.LoginPage;
 
 import junit.framework.Assert;
-
+//PageObjectModel
 public class HomePageTest extends BaseClass {
 	
 	LoginPage loginpage;
